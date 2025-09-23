@@ -1,0 +1,280 @@
+<!-- FAQ interactive script moved to script.js -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyrex Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="backToTop" title="Retour en haut">↑</button>
+    <div id="loader"><div class="loader-cyrex"></div></div>
+    <!-- HEADER -->
+    <header class="hero">
+      <img
+        src="assets/cyrex.png"
+        alt="Cyrex Studio Logo"
+        class="logo fade-in"
+      />
+      <h1 class="fade-in">Cyrex Studio</h1>
+      <p class="fade-in">Innovation • Sécurité • Créativité</p>
+      <a href="#projects" class="btn fade-in">Découvrir nos projets</a>
+    </header>
+
+    <!-- SERVICES / EXPERTISES -->
+    <section id="services" class="fade-in">
+      <h2>Nos Expertises</h2>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <img
+          src="assets/shields/shield.svg"
+          alt="Sécurité"
+          />
+          <h3>Sécurité</h3>
+          <p>
+            Audit, protection, et sécurisation de vos applications et serveurs.
+          </p>
+        </div>
+        <div class="service-card fade-in">
+          <img
+          src="assets/shields/web.svg"
+          alt="Web"
+          />
+          <h3>Développement Web</h3>
+          <p>Sites, applications, API, front-end et back-end sur-mesure.</p>
+        </div>
+        <div class="service-card fade-in">
+          <img
+          src="assets/shields/logiciel.svg"
+          alt="Logiciel"
+          />
+          <h3>Logiciel</h3>
+          <p>
+            Progiciels, outils métiers, automatisation et solutions
+            personnalisées.
+          </p>
+        </div>
+        <div class="service-card fade-in">
+          <img
+          src="assets/shields/consulting.svg"
+          alt="Consulting"
+          />
+          <h3>Consulting</h3>
+          <p>Conseil, accompagnement technique et formation sur vos projets.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="fade-in">
+      <h2>À PROPOS DE CYREX</h2>
+      <div class="about-long">
+        <div class="about-profile">
+          <img src="assets/cyrex.png" alt="Cyrex Studio" class="about-avatar" />
+          <div class="about-infos">
+            <div><strong>Spécialités :</strong> Web, Logiciel, Sécurité</div>
+            <div><strong>Contact :</strong> contact@cyrex.fr</div>
+          </div>
+        </div>
+        <div class="about-desc">
+          <p>
+            Cyrex Studio, c'est l'expertise du développement web (sites, apps,
+            API) et du logiciel sur-mesure (progiciels, outils métiers). Nous
+            créons des solutions robustes, sécurisées et innovantes pour tous
+            types de projets, avec un design moderne et une approche centrée
+            utilisateur.
+          </p>
+        </div>
+        <div class="about-skills">
+          <h3>Compétences</h3>
+          <div class="skills-grid icons-only">
+            <div class="skills-row">
+              <img
+                src="assets/shields/html.svg"
+                alt="HTML"
+              />
+              <img
+                src="assets/shields/css.svg"
+                alt="CSS"
+              />
+              <img
+                src="assets/shields/js.svg"
+                alt="JavaScript"
+              />
+              <img
+                src="assets/shields/react.svg"
+                alt="React"
+              />
+              <img
+                src="assets/shields/c.svg"
+                alt="C"
+              />
+              <img
+                src="assets/shields/cpp.svg"
+                alt="C++"
+              />
+            </div>
+            <div class="skills-row">
+              <img
+                src="assets/shields/csharp.svg"
+                alt="C#"
+              />
+              <img
+                src="assets/shields/nodejs.svg"
+                alt="Node.js"
+              />
+              <img
+                src="assets/shields/python.svg"
+                alt="Python"
+              />
+              <img
+                src="assets/shields/postgresql.svg"
+                alt="PostgreSQL"
+              />
+              <img
+                src="assets/shields/json.svg"
+                alt="JSON"
+              />
+              <img
+                src="assets/shields/php.svg"
+                alt="PHP"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="about-tools">
+          <h3>Outils</h3>
+          <div class="tools-grid icons-only">
+            <div class="tools-row">
+              <img
+                src="assets/shields/github.svg"
+                alt="GitHub"
+              />
+              <img
+             src="assets/shields/ovh.svg"
+             alt="OVH"
+              />
+              <img
+                src="assets/shields/git.svg"
+                alt="Git"
+              />
+              <img
+                src="assets/shields/replit.svg"
+                alt="Replit"
+              />
+              <img
+                src="assets/shields/gitlab.svg"
+                alt="Gitlab"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="fade-in">
+      <h2>Nos Projets</h2>
+      <div class="projects-grid">
+        <div class="project-card-v2 fade-in">
+          <div class="project-img">
+            <img src="assets/projects/bitsdefender.png" alt="BitsDefender" />
+          </div>
+          <div class="project-content">
+            <h3>BitsDefender</h3>
+            <p>
+              Protection captcha avancée pour Discord, intégration IA et
+              dashboard web.
+            </p>
+            <div class="project-tags">
+              <span data-tooltip="Langage Python">Python</span
+              ><span data-tooltip="Format de données">JSON</span
+              ><span data-tooltip="Protection et sécurité">Security</span
+              ><span data-tooltip="Bot Discord">Discord</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card-v2 fade-in">
+          <div class="project-img">
+            <img src="assets/projects/keyscapes.png" alt="Keyscapes" />
+          </div>
+          <div class="project-content">
+            <h3>Keyscapes</h3>
+            <p>
+              Escape game Discord original, énigmes interactives, scoring et
+              progression multi-joueurs.
+            </p>
+            <div class="project-tags">
+              <span data-tooltip="Langage Python">Python</span
+              ><span data-tooltip="Format de données">JSON</span
+              ><span data-tooltip="Jeu interactif">Game</span
+              ><span data-tooltip="Bot Discord">Discord</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card-v2 fade-in">
+          <div class="project-img">
+            <img src="assets/projects/streamit.png" alt="StreamIt" />
+          </div>
+          <div class="project-content">
+            <h3>StreamIt</h3>
+            <p>
+              Plateforme de streaming personnelle, interface custom et
+              responsive.
+            </p>
+            <div class="project-tags">
+              <span data-tooltip="Langage HTML">HTML</span
+              ><span data-tooltip="Feuilles de style">CSS</span
+              ><span data-tooltip="JavaScript">JS</span
+              ><span data-tooltip="Web app">Web</span
+              ><span data-tooltip="Streaming vidéo">Streaming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="why-cyrex" class="fade-in">
+        <h2>FAQ</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">Pourquoi choisir Cyrex Studio ?</button>
+            <div class="faq-answer">
+              <p>Cyrex Studio combine expertise technique, design moderne et accompagnement personnalisé pour garantir la réussite de vos projets web et logiciels.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Quels types de projets réalisez-vous ?</button>
+            <div class="faq-answer">
+              <p>Nous réalisons des sites web, applications, API, bots Discord, progiciels, outils métiers, automatisations et solutions sur-mesure.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Comment se passe le suivi et la communication ?</button>
+            <div class="faq-answer">
+              <p>Nous assurons un suivi régulier, des points d’étape et une communication transparente tout au long du projet.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Proposez-vous des audits ou de la sécurité ?</button>
+            <div class="faq-answer">
+              <p>Oui, nous proposons des audits de sécurité, des conseils et des solutions pour protéger vos applications et serveurs.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Quels sont vos délais de livraison ?</button>
+            <div class="faq-answer">
+              <p>Nous nous engageons à respecter les délais annoncés, avec une réactivité maximale selon la complexité du projet.</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <footer>
+      <p>© 2025 Cyrex Studio. Tous droits réservés.</p>
+    </footer>
+    <!-- Scripts déplacés dans script.js -->
+    <script src="script.js"></script>
+  </body>
+</html>
