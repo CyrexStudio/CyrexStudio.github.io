@@ -1,0 +1,26 @@
+{
+  "name": "Cyrex Studio",
+  "short_name": "Cyrex",
+  "description": "Cyrex Studio : experts en développement web, logiciel sur-mesure, sécurité informatique, audit et consulting.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#181a1b",
+  "theme_color": "#00eaff",
+  "icons": [
+    {
+      "src": "cyrex.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "cyrex.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
