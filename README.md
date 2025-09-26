@@ -5,7 +5,7 @@
 <h1 align="center">Cyrex Studio</h1>
 
 <div align="center">
-    <p>Portfolio interactif présentant nos expertises, projets et technologies.</p>
+    <p> Cyrex Studio delivers innovative web, software, and security solutions,<br>showcasing expertise through custom projects and modern design.</p>
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/HTML/html3.svg">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/CSS/css3.svg">
     <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Javascript/javascript3.svg">
@@ -13,76 +13,75 @@
 
 <br>
 
-## Table des matières
+## Table of Contents
 
-- [Comment utiliser Cyrex Studio](#comment-utiliser-cyrex-studio)
-- [Fonctionnalités](#fonctionnalités)
-- [Démo](#démo)
-- [Structure du projet](#structure-du-projet)
-- [Contributeurs](#contributeurs)
+- [How to use Cyrex Studio](#how-to-use-cyrex-studio)
+- [Features](#features)
+- [Demo](#demo)
+- [Project Structure](#project-structure)
+- [Contributors](#contributors)
 
-# Comment utiliser Cyrex Studio
+# How to use Cyrex Studio
 
-Pour visualiser le site, suivez ces étapes :
+To view the website, follow these steps:
 
-1. **Cloner le dépôt**
+1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/LoupesDEV/Cyrex-Studio.git
+   git clone https://github.com/CyrexStudio/CyrexStudio.github.io.git
    ```
 
-2. **Lancer un serveur local** (facultatif, mais recommandé)
+2. **Run a local server** (optional, but recommended)
 
-   * Avec **VSCode** : clic droit sur `index.html` → **Open with Live Server**.
-   * Avec **Python** :
+   * With **VSCode**: right-click on `index.html` → **Open with Live Server**.
+   * With **Python**:
 
      ```bash
      python3 -m http.server 8000
      ```
 
-3. **Accéder au site**
+3. **Access the site**
 
-   Ouvrez [http://localhost:8000](http://localhost:8000) dans votre navigateur.
+   Open [http://localhost:8000](http://localhost:8000) in your browser.
 
-> 💡 *Le projet fonctionne directement en ouvrant `index.html` dans votre navigateur, sans installation supplémentaire.*
+> 💡 *The project also works directly by opening `index.html` in your browser, with no additional installation required.*
 
-# Fonctionnalités
+# Features
 
-* **Page d’accueil immersive** 🎨 : Hero avec logo animé et CTA.
-* **Expertises** 🛠️ : Présentation des services (Sécurité, Web, Logiciel, Consulting).
-* **À propos** 👤 : Infos sur Cyrex Studio, compétences, outils et technologies.
-* **Projets** 🚀 : Présentation interactive de BitsDefender, Keyscapes et StreamIt.
-* **FAQ interactive** ❓ : Questions/réponses avec ouverture/fermeture animée.
-* **Responsive** 📱💻 : Optimisé pour ordinateurs, tablettes et mobiles.
-* **Back-to-top button** ⬆️ : Retour rapide en haut de page.
+* **Immersive homepage** 🎨: Hero section with animated logo and CTA.
+* **Expertise** 🛠️: Showcase of services (Security, Web, Software, Consulting).
+* **About** 👤: Information about Cyrex Studio, skills, tools, and technologies.
+* **Projects** 🚀: Interactive presentation of BitsDefender, Keyscapes, and StreamIt.
+* **Interactive FAQ** ❓: Q&A section with animated open/close.
+* **Responsive** 📱💻: Optimized for desktop, tablet, and mobile.
+* **Back-to-top button** ⬆️: Quickly return to the top of the page.
 
-# Démo
+# Demo
 
-Une démo en ligne est disponible :
+An online demo is available:
 👉 [https://www.cyrex.fr/](https://www.cyrex.fr/)
 
-# Structure du projet
+# Project Structure
 
 ```
 CyrexStudio/
-├── index.html        # Page principale
-├── style.css         # Styles et thèmes Liquid Glass
-├── script.js         # Logique interactive (FAQ, animations, back-to-top)
-├── assets/           # Médias (logos, images, icônes, projets)
+├── index.html        # Main page
+├── style.css         # Styles and Liquid Glass themes
+├── script.js         # Interactive logic (FAQ, animations, back-to-top)
+├── assets/           # Media (logos, images, icons, projects)
 │   ├── cyrex.png
-│   ├── shields/      # Icônes des compétences et outils
-│   └── projects/     # Images des projets
-└── README.md         # Documentation du projet
+│   ├── shields/      # Icons for skills and tools
+│   └── projects/     # Project images
+└── README.md         # Project documentation
 ```
 
-# Contributeurs
+# Contributors
 
-Merci aux personnes et ressources ayant contribué au projet:
+Thanks to the people and resources that contributed to the project:
 
-- [LoupesDEV](https://github.com/LoupesDEV) — Développement principal, conception et maintenance.
+* [LoupesDEV](https://github.com/LoupesDEV) — Main development, design, and maintenance.
 
-Vous souhaitez contribuer ? Consultez le [guide de contribution](CONTRIBUTING.md) ou ouvrez une *issue* pour proposer
-des améliorations.
+Want to contribute? Check the [contribution guide](CONTRIBUTING.md) or open an *issue* to suggest improvements.
 
 <p align="center">
     <img alt="Footer" src="https://i.imgur.com/fnZRNIn.png">
