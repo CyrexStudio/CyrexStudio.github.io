@@ -1,0 +1,53 @@
+[
+    {
+        "id": "streamit",
+        "title": "StreamIt",
+        "description": "Application web moderne pour organiser, explorer et regarder vos films et séries préférés en toute simplicité.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "UX/UI"
+        ],
+        "link": "https://www.matheo-pichotmoise.fr/StreamIt/",
+        "github": "https://github.com/LoupesDEV/StreamIt",
+        "icon": "fa-play",
+        "color": "blue",
+        "gradient": "from-purple-900 to-blue-900",
+        "badge": "Streaming"
+    },
+    {
+        "id": "liftit",
+        "title": "LiftIt",
+        "description": "Application web légère pour configurer et estimer un équipement de simulation de course (packs, cockpits, sièges et accessoires).",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "link": "https://www.matheo-pichotmoise.fr/LiftIt/",
+        "github": "https://github.com/LoupesDEV/LiftIt",
+        "icon": "fa-gamepad",
+        "color": "red",
+        "gradient": "from-orange-900 to-red-900",
+        "badge": "SimRacing"
+    },
+    {
+        "id": "fermy",
+        "title": "Fermyland",
+        "description": "Système complet de réservation d'anniversaires pour un parc d'attraction. Gestion de calendriers et formulaires.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JS",
+            "API",
+            "PAIEMENT"
+        ],
+        "link": "https://anniversaire.fermyland.com/",
+        "github": null,
+        "icon": "fa-cake-candles",
+        "color": "emerald",
+        "gradient": "from-green-900 to-emerald-900",
+        "badge": "Réservation"
+    }
+]
