@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/cyrex.png" alt="Cyrex Studio Logo" width="140">
+    <img src="cyrex.png" alt="Cyrex Studio Logo" width="140">
 </div>
 
 <h1 align="center">Cyrex Studio</h1>
